@@ -1,0 +1,66 @@
+.container{
+
+         width: 100%;
+         height: 500px;
+         border: 2px solid black;
+           background-color: rgb(246, 249, 252);
+           display: flex;       /* Apply flexbox layout to the container */
+    flex-direction: column; 
+
+    justify-content: center;
+     align-items: center;
+}
+
+.name{
+            width: 50%;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            color: rgb(255, 115, 0);
+            /* border: 2px solid blue; */
+            margin: 20px;
+
+}
+
+.method{
+              display: flex;
+              justify-content: space-between;
+              width: 20%;
+              height: 50px;
+              /* border: 2px solid black; */
+             
+}
+
+#decrement,#increment{
+
+                width: 33%;
+                height: 100%;
+                 font-size: 30px;
+                border: none;
+}
+#decrement:active{
+                 
+    background-color: red;
+}
+#increment:active{
+                 
+    background-color: red;
+}
+
+#increment{
+
+    width: 33%;
+    height: 100%;
+
+    border: none;
+}
+
+
+#disp{
+
+            text-align: center;;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+}
